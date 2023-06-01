@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UsAbout.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- nfont icon link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+     <!-- boostrap link icon-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+<!-------------------------- header section ------------------------------>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning px-5 border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2" href="#">Team God's<span class="text-danger">Knight</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./Main/homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Main/boostrap aboutUs/aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Main/blog/PROJECT FOR WEBTEC/blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                Feature 
+              </a>
+              <ul class="dropdown-menu" >
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#package" style="color: #ffff;">Topic</a></li>
+                <li><a class="dropdown-item" href="#question" style="color: #ffff;">Description</a></li>
+                <li><a class="dropdown-item" href="#foot-area" style="color: #ffff;" >Creator</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ <!----- carousel section open ------->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/iamge_carousel.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:  #04539b;font-weight: 100%;font-size: 30px;"><b>The Difference between HTML, CSS, JAVASCRIPT</b></h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/image_carousel_1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color:#04539b;font-weight: 100%;font-size: 30px;"><b>The Difference between HTML, CSS, JAVASCRIPT</b></h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+   <!----------------- carousel section exit -------------->
+
+</header> 
+
+    <!--------------------------------- header section exit------------------------->
+
+   <!---------------------------- main body opening--------------------------------->
+   <!------------- feature opening --------------------->
+  <section id="package" class="pt-md-5">
+    <h2 class="text-center my-5">Our Topic</h2>
+
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-md-4">
+            <div class="card" >
+              <img src="./images/image_html.png" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" >
+              <img src="./images/CSS-Images.png" class="card-img-top" alt="image" >
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" >
+              <img src="./images/8-Best-Tips-to-Improve-Your-JavaScript-Skills1.png" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">JAVASCRIPT</h5>
+                <p class="card-text">a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+   <!------------- feature closing --------------------->
+
+   <!------------- feature description opening --------------------->
+   <section id="question" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">DESCRIPTION</h2>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is html?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> a formatting system for displaying material retrieved over the Internet. Each retrieval unit is known as a Web page (from World Wide Web), and such pages frequently contain hypertext links that allow related pages to be retrieved. HTML is the markup language for encoding Web pages. It was designed by the British scientist Sir Tim Berners-Lee at the CERN nuclear physics laboratory in Switzerland during the 1980s. HTML markup tags specify document elements such as headings, paragraphs, and tables. They mark up a document for display by a computer program known as a Web browser. The browser interprets the tags, displaying the headings, paragraphs, and tables in a layout that is adapted to the screen size and fonts available to it..</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              What is CSS?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What is JAVASCRIPT?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!------------- feature description closing --------------------->
+
+   
+   <!---------------------------- main body exit--------------------------------->
+
+
+   
+
+
+   <!---------------------- footer section exit ------------------------------>
+   <footer class="py-5 mt-5" style="font-family: 'Montserrat', sans-serif;background:#152238 ;background: linear-gradient(to right,#9dbfe5,#bfafd4,
+   #cf2e2d);" id="foot-area">
+   <div class="container text-dark text text-center">
+    <p class="displat-5 mb-3">Created By Kylle Pañares</p>
+    <small class="text-dark-50">Copyright <i class="fa-solid fa-copyright"></i>2023 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i>by Team God's Knights</p></small>
+   </div>
+   </footer>
+   <!----------------------- footer section exit ------------------------->
+
+
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
